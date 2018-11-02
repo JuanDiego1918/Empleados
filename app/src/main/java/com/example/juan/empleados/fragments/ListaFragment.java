@@ -88,7 +88,7 @@ public class ListaFragment extends Fragment {
 
         Bundle miBundle=getArguments();
         miEmpleados=(Empleados) miBundle.getSerializable("objeto");
-        
+
 
         //llenarRecycler();
         return view;
